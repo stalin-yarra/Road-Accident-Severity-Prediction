@@ -1,0 +1,59 @@
+Column Name,Dataset,Data Type,Category,Description,Missing Values
+Accident_Index,Accident_Information.csv,object,Identifier,Unique identifier for each reported accident record.,0
+1st_Road_Class,Accident_Information.csv,object,Road Information,Classification of the primary road involved in the accident.,0
+1st_Road_Number,Accident_Information.csv,float64,Road Information,Road number of the primary road involved in the accident.,2
+2nd_Road_Class,Accident_Information.csv,object,Road Information,"Classification of the secondary road involved, if any.",844272
+2nd_Road_Number,Accident_Information.csv,float64,Road Information,"Road number of the secondary road involved, if any.",17593
+Accident_Severity,Accident_Information.csv,object,Target,"Recorded severity of the accident outcome (e.g., Slight, Serious, Fatal).",0
+Carriageway_Hazards,Accident_Information.csv,object,Road Information,Any hazards present on the carriageway at the time of the accident.,2007807
+Date,Accident_Information.csv,object,Date & Time,Calendar date on which the accident occurred.,0
+Day_of_Week,Accident_Information.csv,object,Date & Time,Day of the week on which the accident occurred.,0
+Did_Police_Officer_Attend_Scene_of_Accident,Accident_Information.csv,float64,Accident Information,Whether a police officer attended the accident scene.,278
+Junction_Control,Accident_Information.csv,object,Road Information,"Type of control present at the junction (e.g., signal, give way).",0
+Junction_Detail,Accident_Information.csv,object,Road Information,"Description of the junction, if any, at the accident location.",0
+Latitude,Accident_Information.csv,float64,Location,Geographic latitude of the accident location.,174
+Light_Conditions,Accident_Information.csv,object,Accident Information,Lighting conditions at the time of the accident.,0
+Local_Authority_(District),Accident_Information.csv,object,Location,Local authority district responsible for the accident location.,0
+Local_Authority_(Highway),Accident_Information.csv,object,Location,Highway authority responsible for the road at the accident location.,0
+Location_Easting_OSGR,Accident_Information.csv,float64,Location,Ordnance Survey Great Britain (OSGR) easting coordinate.,164
+Location_Northing_OSGR,Accident_Information.csv,float64,Location,Ordnance Survey Great Britain (OSGR) northing coordinate.,164
+Longitude,Accident_Information.csv,float64,Location,Geographic longitude of the accident location.,175
+LSOA_of_Accident_Location,Accident_Information.csv,object,Location,Lower Layer Super Output Area code for the accident location.,144953
+Number_of_Casualties,Accident_Information.csv,int64,Accident Information,Total number of casualties resulting from the accident.,0
+Number_of_Vehicles,Accident_Information.csv,int64,Accident Information,Total number of vehicles involved in the accident.,0
+Pedestrian_Crossing-Human_Control,Accident_Information.csv,float64,Road Information,Human control present at a nearby pedestrian crossing.,2920
+Pedestrian_Crossing-Physical_Facilities,Accident_Information.csv,float64,Road Information,Physical pedestrian crossing facilities near the site.,3560
+Police_Force,Accident_Information.csv,object,Location,Police force that recorded the accident.,0
+Road_Surface_Conditions,Accident_Information.csv,object,Road Information,Surface condition of the road at the time of the accident.,0
+Road_Type,Accident_Information.csv,object,Road Information,"Type of road on which the accident occurred (e.g., single carriageway).",0
+Special_Conditions_at_Site,Accident_Information.csv,object,Road Information,Any special conditions noted at the accident site.,1995137
+Speed_limit,Accident_Information.csv,float64,Road Information,Posted speed limit at the accident location (in mph).,37
+Time,Accident_Information.csv,object,Date & Time,Clock time at which the accident occurred.,156
+Urban_or_Rural_Area,Accident_Information.csv,object,Location,Classification of the accident location as urban or rural.,0
+Weather_Conditions,Accident_Information.csv,object,Accident Information,Weather conditions at the time of the accident.,0
+Year,Accident_Information.csv,int64,Date & Time,Calendar year of the accident record.,0
+InScotland,Accident_Information.csv,object,Location,Flag indicating whether the accident occurred in Scotland.,53
+Accident_Index,Vehicle_Information.csv,object,Identifier,Unique identifier for each reported accident record.,0
+Age_Band_of_Driver,Vehicle_Information.csv,object,Categorical,Banded age group of the driver.,0
+Age_of_Vehicle,Vehicle_Information.csv,float64,Numerical,Age of the vehicle in years at the time of the accident.,358149
+Driver_Home_Area_Type,Vehicle_Information.csv,object,Categorical,Classification of the driver's home area (urban/rural/small town).,0
+Driver_IMD_Decile,Vehicle_Information.csv,float64,Numerical,Index of Multiple Deprivation decile for the driver's home area.,734812
+Engine_Capacity_.CC.,Vehicle_Information.csv,float64,Numerical,"Engine capacity of the vehicle, in cubic centimeters.",265861
+Hit_Object_in_Carriageway,Vehicle_Information.csv,object,Vehicle Information,"Object hit within the carriageway, if any.",2087824
+Hit_Object_off_Carriageway,Vehicle_Information.csv,object,Vehicle Information,"Object hit off the carriageway, if any.",1989741
+Journey_Purpose_of_Driver,Vehicle_Information.csv,object,Categorical,Stated purpose of the driver's journey at the time of the accident.,0
+Junction_Location,Vehicle_Information.csv,object,Road Information,Location of the vehicle relative to a junction at time of accident.,0
+make,Vehicle_Information.csv,object,Vehicle Information,Manufacturer (make) of the vehicle.,110845
+model,Vehicle_Information.csv,object,Vehicle Information,Model of the vehicle.,325331
+Propulsion_Code,Vehicle_Information.csv,object,Vehicle Information,Code indicating the vehicle's propulsion/fuel type.,245843
+Sex_of_Driver,Vehicle_Information.csv,object,Categorical,Recorded sex of the driver.,0
+Skidding_and_Overturning,Vehicle_Information.csv,object,Vehicle Information,"Whether the vehicle skidded, jack-knifed, or overturned.",1898208
+Towing_and_Articulation,Vehicle_Information.csv,object,Vehicle Information,Whether the vehicle was towing or articulated.,0
+Vehicle_Leaving_Carriageway,Vehicle_Information.csv,object,Vehicle Information,Whether/how the vehicle left the carriageway.,0
+Vehicle_Location.Restricted_Lane,Vehicle_Information.csv,float64,Vehicle Information,Whether the vehicle was in a restricted lane.,1317
+Vehicle_Manoeuvre,Vehicle_Information.csv,object,Vehicle Information,Manoeuvre being performed by the vehicle at the time of the accident.,0
+Vehicle_Reference,Vehicle_Information.csv,int64,Identifier,Reference number identifying a vehicle within a given accident.,0
+Vehicle_Type,Vehicle_Information.csv,object,Vehicle Information,"Type/category of the vehicle involved (e.g., car, motorcycle, van).",0
+Was_Vehicle_Left_Hand_Drive,Vehicle_Information.csv,object,Vehicle Information,Whether the vehicle was left-hand drive.,0
+X1st_Point_of_Impact,Vehicle_Information.csv,object,Vehicle Information,Initial point of impact on the vehicle.,0
+Year,Vehicle_Information.csv,int64,Numerical,Calendar year of the accident record.,0
