@@ -1,0 +1,2 @@
+Model,Accuracy,Precision (weighted),Recall (weighted),Weighted F1 Score,Balanced Accuracy,Training Time,Prediction Time (s),Feature Count,Test Set Size
+Gradient Boosting,0.854074464089781,0.8080694663384606,0.854074464089781,0.7940279716705899,0.34774561445385777,7205.31 seconds,19.421577215194702,154,543188
