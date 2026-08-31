@@ -32,8 +32,7 @@ st.markdown(
     to anticipate which situational and vehicle factors are associated with more
     severe outcomes can help transportation authorities, urban planners, and
     emergency services prioritize interventions and allocate resources more
-    effectively. This project was developed as part of an **On-Campus Research
-    Internship at IIIT Vadodara**, using the UK's publicly available Road Safety
+    effectively. This project was developed  using the UK's publicly available Road Safety
     (STATS19) dataset as a large, realistic testbed for this problem.
     """
 )
@@ -95,10 +94,10 @@ st.markdown(
     **Stalin**
     BTech Computer Science — On-Campus Research Internship, IIIT Vadodara
 
-    - **GitHub:** [github.com/your-username](https://github.com/your-username)
-    - **Project Repository:** [github.com/your-username/road-accident-severity-prediction](https://github.com/your-username/road-accident-severity-prediction)
+    - **GitHub:** [github profile url](https://github.com/stalin-yarra)
+    - **Project Repository:** [github repo url](https://github.com/stalin-yarra/Road-Accident-Severity-Prediction)
 
-    *(Update these links with your actual GitHub profile and repository URL before publishing.)*
+    
     """
 )
 
