@@ -92,7 +92,7 @@ st.markdown("## Author")
 st.markdown(
     """
     **Stalin**
-    BTech Computer Science — On-Campus Research Internship, IIIT Vadodara
+    BTech Computer Science — On-Campus Research Internship, IIT Palakkad
 
     - **GitHub:** [github profile url](https://github.com/stalin-yarra)
     - **Project Repository:** [github repo url](https://github.com/stalin-yarra/Road-Accident-Severity-Prediction)
