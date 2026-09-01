@@ -1,38 +1,6 @@
-# =============================================================================
-# Road Accident Severity Prediction using Machine Learning
-# Project Dependencies
-# =============================================================================
-# This file lists all dependencies required across the entire project
-# lifecycle, including future phases (EDA, preprocessing, feature engineering,
-# modeling, interpretability, and deployment).
-# =============================================================================
-
-# ---- Core Data Manipulation ----
-pandas==2.2.2
 numpy==1.26.4
-
-# ---- Data Visualization ----
-matplotlib==3.8.4
-seaborn==0.13.2
-plotly==5.22.0
-
-# ---- Scientific Computing ----
-scipy==1.13.1
-
-# ---- Machine Learning ----
+pandas==2.2.2
 scikit-learn==1.5.0
-xgboost==2.0.3
-lightgbm==4.3.0
-
-# ---- Model Interpretability ----
-shap==0.45.1
-
-# ---- Model Persistence ----
 joblib==1.4.2
-
-# ---- Interactive Development ----
-jupyter==1.0.0
-notebook==7.2.0
-
-# ---- Deployment / Demo Application ----
+plotly==5.22.0
 streamlit==1.35.0
