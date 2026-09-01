@@ -3,5 +3,4 @@ pandas==3.0.3
 scikit-learn==1.6.1
 joblib==1.5.3
 plotly==5.22.0
-streamlit==1.35.0
-rich<14
+streamlit==1.60.0
